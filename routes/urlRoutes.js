@@ -21,7 +21,7 @@ router.post("/shorten", async (req, res) => {
   await newUrl.save();
 
   res.json({
-    shortUrl: `http://localhost:3000/${shortCode}`
+    shortUrl: `http://productionXivamXinha/${shortCode}`
   });
 });
 
